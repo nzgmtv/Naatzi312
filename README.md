@@ -156,7 +156,7 @@ spawn(function()
         if _G.Natzu  then
 repeat wait(20) 
 Send()
-until  world1 == false
+until  not _G.Natzu
         end
     end
 end)
